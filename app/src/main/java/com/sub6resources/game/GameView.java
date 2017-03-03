@@ -3,6 +3,7 @@ package com.sub6resources.game;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceView;
@@ -25,6 +26,9 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
         private int width;
         private int height;
 
+        public GameView(Context context, AttributeSet attributeSet) {
+            super(context);
+        }
         public GameView(Context context, GameController gameController, int width, int height)
         {
             super(context);

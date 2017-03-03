@@ -18,6 +18,9 @@ import com.sub6resources.game.GameView;
 
 public class PacmanView extends GameView
 {
+    public PacmanView(Context context, AttributeSet attributeSet) {
+        super(context, new GameController(), 100, 100);
+    }
     public PacmanView(Context context, GameController gameController, int width, int height) {
         super(context, gameController, width, height);
     }
