@@ -1,6 +1,8 @@
 package com.sub6resources.game;
 
 import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.view.MotionEvent;
 
 /**
@@ -10,13 +12,15 @@ import android.view.MotionEvent;
 public class GameController {
     TimeManager timeManager = new TimeManager();
     boolean isGameOver;
+    Paint paint = new Paint();
 
     public boolean onTouchEvent(MotionEvent event) {
         return false;
     }
 
     public void draw(Canvas canvas) {
-
+        paint.setColor(Color.YELLOW);
+        canvas.drawText("It works!", canvas.getWidth()/20, 20, paint);
     }
 
     public void update() {

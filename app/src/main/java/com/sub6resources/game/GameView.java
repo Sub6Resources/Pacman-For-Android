@@ -2,6 +2,7 @@ package com.sub6resources.game;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -41,7 +42,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
             this.height = height;
             paint = new Paint();
             //initialize paint object parameters
-
+            paint.setColor(Color.WHITE);
             setWillNotDraw(false); //this line is very important!
         }
 

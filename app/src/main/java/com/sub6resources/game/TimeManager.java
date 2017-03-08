@@ -4,7 +4,7 @@ package com.sub6resources.game;
  * Copyright (c) 2017 Matthew Whitaker.
  */
 
-class TimeManager {
+public class TimeManager {
     private long oldTime;
 
     public TimeManager() {
