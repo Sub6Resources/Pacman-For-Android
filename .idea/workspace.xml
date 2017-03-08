@@ -9,7 +9,14 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1e01cfc-5f07-4b7d-9c5b-fc6439b8ab32" name="Default" comment="" />
+    <list default="true" id="f1e01cfc-5f07-4b7d-9c5b-fc6439b8ab32" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/Man.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameController.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/TimeManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/TimeManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/GameScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/GameScreen.java" />
+    </list>
     <ignored path="Pacman.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,14 +60,14 @@
       </file>
       <file leaf-file-name="activity_game_screen.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_screen.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
           <provider selected="true" editor-type-id="android-designer2">
             <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -77,34 +84,23 @@
       <file leaf-file-name="GameView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
-              <folding>
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-990">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameScreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/GameScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="714">
               <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
               <folding>
-                <element signature="e#1203#1983#0" expanded="true" />
-                <element signature="e#1982#1983#0" expanded="true" />
-                <element signature="e#2065#2386#0" expanded="true" />
-                <element signature="e#2385#2386#0" expanded="true" />
-                <element signature="e#2461#2559#0" expanded="true" />
-                <element signature="e#2522#2523#0" expanded="false" />
-                <element signature="e#2552#2553#0" expanded="false" />
-                <element signature="e#2558#2559#0" expanded="true" />
-                <element signature="e#2841#3094#0" expanded="true" />
-                <element signature="e#3093#3094#0" expanded="true" />
-                <marker date="1488575934000" expanded="false" signature="3644:3663" ph=" { " />
-                <marker date="1488575934000" expanded="false" signature="3672:3686" ph=" }" />
+                <element signature="e#1204#1984#0" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
+                <marker date="1489007052000" expanded="false" signature="3645:3664" ph=" { " />
+                <marker date="1489007052000" expanded="false" signature="3673:3687" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -112,14 +108,14 @@
       </file>
       <file leaf-file-name="activity_home.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -133,22 +129,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="187">
+              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameController.java">
+      <file leaf-file-name="Man.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/Man.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,13 +154,11 @@
       <file leaf-file-name="TimeManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/TimeManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding>
-                <element signature="e#154#155#0" expanded="false" />
-                <element signature="e#187#188#0" expanded="false" />
-                <element signature="e#230#231#0" expanded="false" />
-                <element signature="e#257#258#0" expanded="false" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,6 +172,9 @@
         <option value="ASClass" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -1848,14 +1847,15 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/TimeManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/GameController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/TimeManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameController.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_screen.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/PacmanView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/GameScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameController.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/TimeManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/Man.java" />
       </list>
     </option>
   </component>
@@ -1891,7 +1891,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1913,9 +1913,19 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+              <option name="myItemId" value="Pacman" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1928,12 +1938,16 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+              <option name="myItemId" value="sub6resources" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pacman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1944,17 +1958,29 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sub6resources" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="F:/SDK" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
@@ -1963,6 +1989,7 @@
     <property name="DEBUGGABLE_PROCESS" value="com.sub6resources.pacman" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2298,7 +2325,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5191898" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.48081023" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.48081023" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2342,32 +2369,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/GameScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#1203#1983#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-            <element signature="e#2065#2386#0" expanded="true" />
-            <element signature="e#2385#2386#0" expanded="true" />
-            <element signature="e#2461#2559#0" expanded="true" />
-            <element signature="e#2522#2523#0" expanded="false" />
-            <element signature="e#2552#2553#0" expanded="false" />
-            <element signature="e#2558#2559#0" expanded="true" />
-            <element signature="e#2841#3094#0" expanded="true" />
-            <element signature="e#3093#3094#0" expanded="true" />
-            <marker date="1488575934000" expanded="false" signature="3644:3663" ph=" { " />
-            <marker date="1488575934000" expanded="false" signature="3672:3686" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2397,10 +2403,8 @@
         <state relative-caret-position="187">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="e#154#155#0" expanded="false" />
-            <element signature="e#187#188#0" expanded="false" />
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2425,14 +2429,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_screen.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/PacmanView.java">
@@ -2447,10 +2451,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2459,18 +2460,10 @@
         <state relative-caret-position="136">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#1203#1983#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-            <element signature="e#2065#2386#0" expanded="true" />
-            <element signature="e#2385#2386#0" expanded="true" />
-            <element signature="e#2461#2559#0" expanded="true" />
-            <element signature="e#2522#2523#0" expanded="false" />
-            <element signature="e#2552#2553#0" expanded="false" />
-            <element signature="e#2558#2559#0" expanded="true" />
-            <element signature="e#2841#3094#0" expanded="true" />
-            <element signature="e#3093#3094#0" expanded="true" />
-            <marker date="1488575934000" expanded="false" signature="3644:3663" ph=" { " />
-            <marker date="1488575934000" expanded="false" signature="3672:3686" ph=" }" />
+            <element signature="e#1204#1984#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <marker date="1489007052000" expanded="false" signature="3645:3664" ph=" { " />
+            <marker date="1489007052000" expanded="false" signature="3673:3687" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2504,10 +2497,8 @@
         <state relative-caret-position="187">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="e#154#155#0" expanded="false" />
-            <element signature="e#187#188#0" expanded="false" />
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2532,14 +2523,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_screen.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/PacmanView.java">
@@ -2554,10 +2545,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2566,18 +2554,10 @@
         <state relative-caret-position="136">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#1203#1983#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-            <element signature="e#2065#2386#0" expanded="true" />
-            <element signature="e#2385#2386#0" expanded="true" />
-            <element signature="e#2461#2559#0" expanded="true" />
-            <element signature="e#2522#2523#0" expanded="false" />
-            <element signature="e#2552#2553#0" expanded="false" />
-            <element signature="e#2558#2559#0" expanded="true" />
-            <element signature="e#2841#3094#0" expanded="true" />
-            <element signature="e#3093#3094#0" expanded="true" />
-            <marker date="1488575934000" expanded="false" signature="3644:3663" ph=" { " />
-            <marker date="1488575934000" expanded="false" signature="3672:3686" ph=" }" />
+            <element signature="e#1204#1984#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <marker date="1489007052000" expanded="false" signature="3645:3664" ph=" { " />
+            <marker date="1489007052000" expanded="false" signature="3673:3687" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2611,10 +2591,8 @@
         <state relative-caret-position="187">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="e#154#155#0" expanded="false" />
-            <element signature="e#187#188#0" expanded="false" />
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2631,13 +2609,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/Home.java">
@@ -2649,14 +2627,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_screen.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/PacmanView.java">
@@ -2671,10 +2649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2691,10 +2666,8 @@
         <state relative-caret-position="187">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="e#154#155#0" expanded="false" />
-            <element signature="e#187#188#0" expanded="false" />
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2715,13 +2688,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/Home.java">
@@ -2740,13 +2713,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
@@ -2764,19 +2737,6 @@
         <state relative-caret-position="357">
           <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/TimeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#154#155#0" expanded="false" />
-            <element signature="e#187#188#0" expanded="false" />
-            <element signature="e#230#231#0" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2804,11 +2764,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameController.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        <state relative-caret-position="408">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_screen.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/GameScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+          <folding>
+            <element signature="e#1204#1984#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <marker date="1489007052000" expanded="false" signature="3645:3664" ph=" { " />
+            <marker date="1489007052000" expanded="false" signature="3673:3687" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2820,56 +2807,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_screen.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+        <state relative-caret-position="-990">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/game/TimeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding>
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/GameScreen.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sub6resources/pacman/Man.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#1203#1983#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-            <element signature="e#2065#2386#0" expanded="true" />
-            <element signature="e#2385#2386#0" expanded="true" />
-            <element signature="e#2461#2559#0" expanded="true" />
-            <element signature="e#2522#2523#0" expanded="false" />
-            <element signature="e#2552#2553#0" expanded="false" />
-            <element signature="e#2558#2559#0" expanded="true" />
-            <element signature="e#2841#3094#0" expanded="true" />
-            <element signature="e#3093#3094#0" expanded="true" />
-            <marker date="1488575934000" expanded="false" signature="3644:3663" ph=" { " />
-            <marker date="1488575934000" expanded="false" signature="3672:3686" ph=" }" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
